@@ -1,0 +1,22 @@
+{
+  "author": "Microsoft OCOS Team",
+  "description": "Get information of the active tab.",
+  "icons":
+    {
+      "48": "icons/microsoft.png",
+      "96": "icons/microsoft-96.png"
+    },
+  "manifest_version": 2,
+  "name": "HelloWorld",
+  "version": "1.0",
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "30": "icons/microsoft-30.png"
+    },
+    "default_title": "HelloWorld",
+    "default_popup": "GetTabInfo.html"
+  }
+}
