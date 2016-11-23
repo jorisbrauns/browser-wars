@@ -1,28 +1,39 @@
-Goals
+# Goals
 
-Goals	Points
-#1 Install the boilerplte extension in Edge	+10 pts
-#2 Convert the Make page Red extension	+25pts
-Link to boiler plate code for goals 1 & 2
-#3 Create a Translate Page extension	+100 pts
-#4 Create an extension that counts the number of words on a webpage. The count should appear on an alert box	+150 pts
-#5 Add context menu functionality to search a word directly in Bing/Google	+50 pts
-#6 Add configuration page to your extension	+50 pts
-#7 Create an extension making use of an external API (e.g. doing sentiment analysis on a webpage)	+220 pts
-Pointers
+| Goals                                                                                          | Points   |
+|------------------------------------------------------------------------------------------------|----------|
+| Install the boilerplate extension in Edge                                                      | +10 pts  |
+| Convert the Make page Red extension                                                            | +25 pts  |
+| Create a Translate Page extension                                                              | +100 pts |
+| Add context menu functionality to search a word directly in Bing/Google                        | +50 pts  |
+| Add configuration page to your extension                                                       | +50 pts  |
+| Create an extension making use of an external API (e.g. doing sentiment analysis on a webpage) | +220 pts |
 
-Boiler plate for #1 & #2: https://aka.ms/hledge
+# Pointers
+Anatomy of a WebExtension  
+https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Anatomy_of_a_WebExtension
 
-VM: https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
+Boiler plate for #1 & #2  
+https://aka.ms/hledge
 
-Edge extension API support: https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/extensions/api-support/
+Extension Toolkit – Porting an extension from Chrome to Microsoft Edge  
+https://www.microsoft.com/en-us/store/p/microsoft-edge-extension-toolkit/9nblggh4txvb  
+https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/extensions/guides/porting-chrome-extensions/
 
-Edge extension guides: https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/extensions/guides/
+Edge extension API support  
+https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/extensions/api-support/
 
-Extension Toolkit – Porting an extension from Chrome to Microsoft Edge: https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/extensions/guides/porting-chrome-extensions/
+Edge extension guides  
+https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/extensions/guides/
 
-API Support (Browser Actions, Context Menu, Cookies): https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/extensions/api-support/supported-apis/
+API Support (Browser Actions, Context Menu, Cookies)  
+https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/extensions/api-support/supported-apis/
 
-Cognitive Services (External APIs): https://www.microsoft.com/cognitive-services
+Cognitive Services (External APIs)  
+https://www.microsoft.com/cognitive-services
 
-Sensitivity analysis: https://www.microsoft.com/cognitive-services/en-us/text-analytics-api
+Sensitivity analysis  
+https://www.microsoft.com/cognitive-services/en-us/text-analytics-api
+
+VM  
+https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
