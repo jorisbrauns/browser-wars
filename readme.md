@@ -9,7 +9,32 @@
 | Add configuration page to your extension                                                       | +50 pts  |
 | Create an extension making use of an external API (e.g. doing sentiment analysis on a webpage) | +220 pts |
 
+# API Reference
+https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/extensions/api-support/supported-apis/
+https://developer.chrome.com/extensions/devguide
+
+# Chrome vs. Edge
+Protip! You can often use documentation for Chrome extensions because Edge extensions are very similar. You will find more code examples for Chrome than for Edge. Biggest difference? The global `chrome` object in Chrome is replaced by the global `browser` object in Edge. T
+
+Example in Chrome
+```js
+chrome.tabs.getCurrent(function(currentTab) { ... });
+```
+
+Example in Edge
+```js
+browser.tabs.getCurrent(function(currentTab) { ... });
+```
+
+The `chrome` and `browser` objects have a very similar public API that is often the same.
+
+Microsoft provides optional shims for Chrome APIs so that code written for Chrome can work in Edge with only minimal effort.
+
+You can install the shims into your project using the Edge Extension toolkit.  
+https://www.microsoft.com/en-us/store/p/microsoft-edge-extension-toolkit/9nblggh4txvb
+
 # Pointers
+
 Anatomy of a WebExtension  
 https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Anatomy_of_a_WebExtension
 
@@ -17,7 +42,6 @@ Boiler plate for #1 & #2
 https://aka.ms/hledge
 
 Extension Toolkit – Porting an extension from Chrome to Microsoft Edge  
-https://www.microsoft.com/en-us/store/p/microsoft-edge-extension-toolkit/9nblggh4txvb  
 https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/extensions/guides/porting-chrome-extensions/
 
 Edge extension API support  
