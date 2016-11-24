@@ -3,7 +3,13 @@
   "description": "Make the current page red",
   "version": "2.0",
   "permissions": [
-    "activeTab"
+     "*://*/*",
+     "notifications",
+     "activeTab",
+     "tabs",
+     "contextMenus",
+     "background",
+     "webNavigation"
   ],
   "background": {
     "scripts": ["background.js"],
