@@ -14,7 +14,7 @@ https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/exte
 https://developer.chrome.com/extensions/devguide
 
 # Chrome vs. Edge
-Protip! You can often use documentation for Chrome extensions because Edge extensions are very similar. You will find more code examples for Chrome than for Edge. Biggest difference? The global `chrome` object in Chrome is replaced by the global `browser` object in Edge. T
+Protip! You can often use documentation for Chrome extensions because Edge extensions are very similar. You will find more code examples for Chrome than for Edge. Biggest difference? The global `chrome` object in Chrome is replaced by the global `browser` object in Edge.
 
 Example in Chrome
 ```js
